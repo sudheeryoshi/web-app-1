@@ -18,7 +18,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: web-app
-        image: sudheeracr.azurecr.io/sudheeracr/devops:2.1.0
+        image: sudheeracr.azurecr.io/sudheeracr/devops:3.1.0
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
